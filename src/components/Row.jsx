@@ -3,6 +3,7 @@ import axios from "axios";
 import Movie from "./Movie";
 import{MdChevronLeft,MdChevronRight} from 'react-icons/md'
 
+
 const Row = ({ title, fetchUrl, RowId }) => {
   const [movies, setMovies] = useState([]);
 
